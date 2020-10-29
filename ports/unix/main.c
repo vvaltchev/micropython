@@ -52,6 +52,9 @@
 #include "genhdr/mpversion.h"
 #include "input.h"
 
+char *
+realpath(const char *path, char resolved[PATH_MAX]);
+
 // Command line options, with their defaults
 STATIC bool compile_only = false;
 STATIC uint emit_opt = MP_EMIT_OPT_NONE;

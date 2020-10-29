@@ -199,6 +199,9 @@ SRC_C = \
 	coverage.c \
 	fatfs_port.c \
 	btstack_usb.c \
+	realpath.c \
+	strlcpy.c \
+	strlcat.c \
 	$(SRC_MOD) \
 	$(wildcard $(VARIANT_DIR)/*.c)
 
